@@ -117,7 +117,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: -16px;
+    top: -24px;
 }
 .phone{
     float: right;
@@ -203,7 +203,7 @@ body {
 
 .container3{
     width: 1600px;
-    height: 944px;
+    height: 744px;
     background-color: white;
     position: relative;
     /*border: red 2px solid;*/
@@ -236,7 +236,7 @@ body {
     width: 1600px;
     height: 414px;
     position: relative;
-    bottom: 738px;
+    bottom: 538px;
     /*border: purple 2px solid;   /*  ---photos */
 }
 .p1{
@@ -254,7 +254,7 @@ body {
     width: 1400px;
     height: 80px;
     position: relative;
-    bottom: 785px;
+    bottom: 586px;
     z-index: 4;
     /*border: green 2px solid;       /*----white text blocks*/
 }
@@ -458,7 +458,7 @@ body {
     margin-left: 100px;
 }
 
-.box2 h1 {
+.p4{
     margin-top: 162px;
     font-family: "Gotham Medium", sans-serif;
     font-size: 36.5px;
@@ -471,7 +471,7 @@ body {
     word-spacing: 2px;
 }
 
-    .box2 h1:before {
+    .p4:before {
         content: "W";
         position: absolute;
         font-family: "Roboto Bold Condensed", sans-serif;
@@ -540,28 +540,25 @@ body {
 }
 
 .head1 {
-    font-family: "Gotham-Bold", sans-serif;
+    font-family: "Gotham Bold", sans-serif;
     font-size: 150px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    margin-top: -35px;
-    letter-spacing: -8px;
-    margin-left: -8px;
+    margin-top: 0px;
+    letter-spacing: -2px;
 }
 
 .head2 {
-    font-family: "Gotham-Medium", sans-serif;
+    font-family: "Gotham Medium", sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
     color: #157098;
-    margin-top: -138px;
-    margin-left: 21px;
-    letter-spacing: 18.2px;
-
+    margin-top: -155px;
+    letter-spacing: 18px;
 }
 
 .head3 {
@@ -569,21 +566,21 @@ body {
     font-size: 13px;
     text-align: center;
     font-weight: 200;
-    color: #cecece;
-    margin-top: -46px;
-    left: -5px;
+    color: #ffffff;
+    margin-top: -54px;
+    margin-left: -15px;
 }
 
 .circle2 {
-    height: 64px;
-    width: 64px;
-    border: 1px solid  #cecece;
+    height: 65px;
+    width: 65px;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     z-index: 10;
     position: relative;
     justify-self: center;
-    top: -60px;
-    margin-left: -6px;
+    top: -70px;
+    left: -8px;
 }
 
 .im2 {
@@ -600,8 +597,8 @@ body {
     opacity: .9;
     height: 67px;
     width: 67px;
-    top: -18px;
-    left: +227px;
+    top: +31px;
+    left: +225px;
 }
 
 .logotext {
@@ -619,13 +616,13 @@ body {
     position: absolute;
     color: #ffffff;
     z-index: -1;
-    font-family: "Gotham-Medium", sans-serif;
+    font-family: "Open Sans", sans-serif;
     opacity: 1;
     font-size: 30px;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 600;
     top: -13px;
-    left: +13px;
+    left: +11px;
 }
 
 .markarea1 {
@@ -634,7 +631,7 @@ body {
     background-color: #11749e;
     height: 6px;
     width: 76px;
-    top: -179px;
+    top: -150px;
     left: +520px;
 }
 
@@ -644,7 +641,7 @@ body {
     background-color: #7d7d7d;
     height: 1px;
     width: 1600px;
-    top: -227px;
+    top: -197px;
 }
 
 a {
@@ -661,8 +658,8 @@ li {
     position: relative;
     font-size: 20px;
     color: #ffffff;
-    top: -102px;
-    left: 472px;
+    top: -55px;
+    left: +470px;
     letter-spacing: 0.25px;
     font-family: Myriad Pro Light;
 }
@@ -671,14 +668,43 @@ li {
 }
 .link:hover {
     color: #9d2320;
-} 
+}
+.ScrollButton {
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    background-image: none;
+    background: transparent;
+    background-color: transparent;
+    border: 0px;
+    top: +18px;
+    left: +18px;
+}
 
+    .ScrollButton:active {
+        color: #F8E22E;
+        background-image: none;
+        background: transparent;
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .ScrollButton:hover {
+        color: #9d2320;
+        background-image: none;
+        background: transparent;
+        background-color: transparent;
+        border: 0px;
+    } 
 .im1 {
     position: relative;
     z-index: 10;
-    height: 20px;
-    top: -162px;
-    left: +1250px;
+    height: 17px;
+    margin: 13px;
+    top: -128px;
+    left: +1225px;
 }
 
 .box3 {
@@ -690,7 +716,7 @@ li {
 .item4 {
     background-color: #222222;
     color: white;
-    /**/height: 447px;
+    height: 447px;
 }
 
 .t12 {
@@ -704,7 +730,7 @@ li {
 }
 
 .image4 img {
-    /*100*/height: 100%;
+    height: 100%;
     width: 800px;
 }
 
@@ -790,7 +816,7 @@ li {
     color: #222222;
 }
 
-.box4 h2 {
+.p6 {
     margin-top: 77px;
     font-family: "GothamBook", sans-serif;
     font-size: 30px;
@@ -799,40 +825,39 @@ li {
     color: #222222;
 }
 
-.box4 h1 {
+.p5 {
     margin-top: 189px;
     font-family: "Gotham-Medium", sans-serif;
     font-size: 38px;
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    z-index: 10;
     font-weight: 200;
     color: #222222;
 }
 
-    .box4 h1:before {
+    .p5:after {
         content: "B";
         position: absolute;
         font-family: "Roboto Bold Condensed", sans-serif;
         font-stretch: 50%;
         font-weight: 600;
         font-size: 247px;
-        color: #d7d7d7;
-        top: -258%;
+        top: -280%;
         left: 44.1%;
         text-align: center;
-        z-index: -1;
+        opacity: 0.18;
     }
 
 .box5 {
-    position: relative;
-    margin-top: -713px;
     background-image: url('layer_97.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+
+    margin-top: -513px;
     /**/
+    padding-top: 100px;
     height: 751px;
     display: grid;
     justify-content: center;
@@ -840,7 +865,7 @@ li {
     grid-gap: 0;
 }
 
-.box5 h1 {
+.box5 h5 {
     margin-top: 115px;
     margin-bottom: 142px;
     font-family: "Gotham-Medium", sans-serif;
@@ -855,7 +880,7 @@ li {
     letter-spacing: -0.2px;
 }
 
-.box5 h1:before {
+.box5 h5:before {
     content: 'C';
     font-size: 247px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -904,7 +929,7 @@ li {
 
 .submit-btn {
     height: 64px;
-    margin-bottom: 300px;
+    margin-bottom:101px;
     margin-left: 83px;
     width: 227px;
     place-self: center;
@@ -913,10 +938,7 @@ li {
     color: white;
     font-size: 24px;
     font-family: "GothamBook", sans-serif;
-    padding-top: 0;
-    padding-left: 0;
     font-weight: 500;
-    padding-bottom: 12px;
 }
 
 button:hover {
@@ -928,7 +950,7 @@ button:active {
     color: rgba(17,116,158);
 }
 
-.map img{
+.image1 {
     width: 100%;
 }
 
@@ -939,7 +961,7 @@ button:active {
     justify-content: space-between;
     padding-left: 221px;
     padding-right: 221px;
-    margin-top: -4px;
+
 }
 
 .text-footer {
@@ -962,3 +984,4 @@ button:active {
     display: flex;
     flex-direction: column;
 }
+
