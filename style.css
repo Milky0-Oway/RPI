@@ -671,33 +671,36 @@ li {
 }
 .ScrollButton {
     text-decoration: none;
-    position: absolute;
+    position: relative;
     font-size: 20px;
     font-weight: 900;
     color: #ffffff;
+    height: 65px;
+    width: 65px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
     background-image: none;
     background: transparent;
     background-color: transparent;
-    border: 0px;
-    top: +18px;
-    left: +18px;
+    top: -60px;
+    left: +760px;
 }
 
     .ScrollButton:active {
         color: #F8E22E;
+        border: 2px solid #F8E22E;
         background-image: none;
         background: transparent;
         background-color: transparent;
-        border: 0px;
     }
 
     .ScrollButton:hover {
         color: #9d2320;
+        border: 2px solid #9d2320;
         background-image: none;
         background: transparent;
         background-color: transparent;
-        border: 0px;
-    } 
+    }
 .im1 {
     position: relative;
     z-index: 10;
